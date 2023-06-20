@@ -1,4 +1,4 @@
-package com.lordgasmic.trapperkeeper;
+package com.lordgasmic.bookbujo;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.lordgasmic.trapperkeeper", appContext.getPackageName());
+        assertEquals("com.lordgasmic.bookbujo", appContext.getPackageName());
     }
 }

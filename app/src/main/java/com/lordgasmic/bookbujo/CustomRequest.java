@@ -1,4 +1,4 @@
-package com.lordgasmic.trapperkeeper;
+package com.lordgasmic.bookbujo;
 
 import com.android.volley.NetworkResponse;
 import com.android.volley.ParseError;

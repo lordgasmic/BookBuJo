@@ -1,4 +1,4 @@
-package com.lordgasmic.trapperkeeper;
+package com.lordgasmic.bookbujo;
 
 import android.content.Intent;
 import android.os.Bundle;

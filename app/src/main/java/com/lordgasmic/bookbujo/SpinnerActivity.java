@@ -1,4 +1,4 @@
-package com.lordgasmic.trapperkeeper;
+package com.lordgasmic.bookbujo;
 
 import android.graphics.ImageDecoder;
 import android.graphics.drawable.AnimatedImageDrawable;
