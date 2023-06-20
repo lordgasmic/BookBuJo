@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:paddingBottom="6dp"
+        android:id="@+id/textTitle" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/txtIssue"
+        android:id="@+id/cover" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:layout_toRightOf="@id/cover"
+        android:id="@+id/txtIssue" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtIssue"
+        android:layout_toRightOf="@id/cover"
+        android:id="@+id/txtVolume" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtVolume"
+        android:layout_toRightOf="@id/cover"
+        android:clickable="false"
+        android:id="@+id/cbVariant" />
+</RelativeLayout>
