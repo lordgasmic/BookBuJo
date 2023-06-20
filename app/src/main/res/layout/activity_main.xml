@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="wrap_content"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:rotation="0"
+    android:rotationX="0"
+    android:rotationY="0">
 
-    <TextView android:text=""
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtContent"/>
     <Button
+        android:id="@+id/btn_process"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Process"
-        android:id="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-    <ImageView
-        android:layout_width="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="@string/process" />
+
+    <TextView
+        android:id="@+id/txt_isbn"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imgview"/>
+        android:layout_marginBottom="50dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txt_volley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txt_cookie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="" />
+
 </LinearLayout>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true">example.com</domain>
-        <domain includeSubdomains="true">10.4.115.208</domain>
         <domain includeSubdomains="true">lordgasmic.com</domain>
-        <domain includeSubdomains="true">73.144.144.163</domain>
+        <domain includeSubdomains="true">73.144.151.145</domain>
     </domain-config>
 </network-security-config>

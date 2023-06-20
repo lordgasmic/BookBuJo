@@ -1,16 +1,15 @@
 package com.lordgasmic.bookbujo;
 
+import android.app.Activity;
 import android.graphics.ImageDecoder;
 import android.graphics.drawable.AnimatedImageDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import java.io.IOException;
 
-public class SpinnerActivity extends AppCompatActivity {
+public class SpinnerActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,12 +18,12 @@ public class SpinnerActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onResume(){
+    protected void onResume() {
         super.onResume();
         loadGif();
     }
 
-    private void loadGif( ){
+    private void loadGif() {
         setContentView(R.layout.activity_spinner);
         ImageView vw = findViewById(R.id.imgview);
 
@@ -36,8 +35,7 @@ public class SpinnerActivity extends AppCompatActivity {
             if (drawable instanceof AnimatedImageDrawable) {
                 ((AnimatedImageDrawable) drawable).start();
             }
-        }
-        catch( IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
