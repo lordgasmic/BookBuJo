@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">BookBuJo</string>
     <string name="process">Process</string>
-    <string name="login_server">https://lordgasmic.com/android/api/v1/login</string>
-    <string name="bookbujo">https://lordgasmic.com/android/api/v1/bookbujo</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="submit">Submit</string>
 </resources>

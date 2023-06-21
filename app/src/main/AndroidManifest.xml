@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".ComicApplication"
+        android:name=".BookBuJoApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".SpinnerActivity" />
         <activity android:name=".ResponseActivity" />
+        <activity android:name=".LoginActivity" />
 
         <meta-data
             android:name="com.google.mlkit.vision.DEPENDENCIES"

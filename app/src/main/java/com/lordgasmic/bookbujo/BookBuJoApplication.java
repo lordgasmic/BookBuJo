@@ -2,7 +2,7 @@ package com.lordgasmic.bookbujo;
 
 import android.app.Application;
 
-public class ComicApplication extends Application {
+public class BookBuJoApplication extends Application {
 
     @Override
     public void onCreate() {
